@@ -8,7 +8,7 @@
 		"git.enabled": true,
 		"git.ignoreLimitWarning": true,
 		"files.exclude": {
-			"**/.git": true,
+			"**/.git": false,
 		}
 	}
 }
