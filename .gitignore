@@ -9,7 +9,7 @@ wordpress/wp-config.php
 
 # --------------------------------------------------------------------------
 # /*
-# !wp-content/
+# !wp-content/  
 
 # ignore all files starting with .
 .*
