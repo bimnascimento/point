@@ -11,7 +11,7 @@ services:
     container_name: wordpress
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
-      - ./pointlave:/var/www/html
+      - ./wordpress:/var/www/html
     environment:
       - WORDPRESS_DB_NAME=db_mysql
       - WORDPRESS_TABLE_PREFIX=box_
@@ -63,7 +63,7 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - ./logs/nginx:/var/log/nginx
-      - ./pointlave:/var/www/html
+      - ./wordpress:/var/www/html
       - ./certs:/etc/letsencrypt
       - ./certs-data:/data/letsencrypt
     depends_on:
