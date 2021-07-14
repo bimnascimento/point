@@ -3,8 +3,8 @@
 # IGNORE --------------------------------------------------------------------
 
 wordpress/tmp/
-wordpress/.htaccess
-wordpress/wp-config.php
+# wordpress/.htaccess
+# wordpress/wp-config.php
 
 
 # --------------------------------------------------------------------------
@@ -57,7 +57,7 @@ Thumbs.db
 *.jar
 *.rar
 *.tar
-*.zip
+# *.zip
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins" directory
@@ -131,4 +131,4 @@ wordpress/doc
 .vs/*.*
 .vs
 .history
-*.bkp
+# *.bkp
