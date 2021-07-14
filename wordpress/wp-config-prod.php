@@ -22,13 +22,13 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'pointlave' );
+define( 'DB_NAME', 'db_mysql' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'user_mysql' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', '@lava3135' );
+define( 'DB_PASSWORD', 'ZB67uctY5rXo' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'mysql' );
@@ -78,7 +78,7 @@ define('WP_ALLOW_MULTISITE', true);
 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'www.pointlave.com.br');
+define('DOMAIN_CURRENT_SITE', 'pointlave.com');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
@@ -123,8 +123,8 @@ define( 'SMTP_DEBUG',   0 );                    // for debugging purposes only s
 
 //define( 'COOKIE_DOMAIN', 'www.fastlave.com.br' );
 
-define( 'WP_HOME', 'https://www.pointlave.com.br' );
-define( 'WP_SITEURL', 'https://www.pointlave.com.br' );
+define( 'WP_HOME', 'https://pointlave.com' );
+define( 'WP_SITEURL', 'https://pointlave.com' );
 define('FORCE_SSL_ADMIN', true);
 define('FORCE_SSL_LOGIN', true);
 
