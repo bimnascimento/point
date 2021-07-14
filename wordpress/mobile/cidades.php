@@ -31,9 +31,9 @@ INSERT INTO `pointlave_mobile` (`id`, `cidade`, `estado`, `img`, `link`, `qnt`, 
    
    // Define database connection parameters
    $hn      = 'mysql';
-   $un      = 'root';
-   $pwd     = '@lava3135';
-   $db      = 'pointlave_mobile';
+   $un      = 'user_mysql';
+   $pwd     = 'ZB67uctY5rXo';
+   $db      = 'db_mysql';
    $cs      = 'utf8';
 
    // Set up the PDO parameters
@@ -50,7 +50,7 @@ INSERT INTO `pointlave_mobile` (`id`, `cidade`, `estado`, `img`, `link`, `qnt`, 
 
    // Attempt to query database table and retrieve data
    try {
-      $stmt    = $pdo->query('SELECT * FROM '.$db.' WHERE status = 1 ORDER BY estado ASC, cidade ASC');
+      $stmt    = $pdo->query('SELECT * FROM pointlave_mobile WHERE status = 1 ORDER BY estado ASC, cidade ASC');
       while($row  = $stmt->fetch(PDO::FETCH_OBJ))
       {
          // Assign each row of data to associative array
