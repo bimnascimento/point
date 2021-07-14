@@ -63,7 +63,7 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - ./logs/nginx:/var/log/nginx
-      - ./wordpress2:/var/www/html
+      - ./wordpress:/var/www/html
       - ./certs:/etc/letsencrypt
       - ./certs-data:/data/letsencrypt
     depends_on:
