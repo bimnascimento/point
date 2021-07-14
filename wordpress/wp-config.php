@@ -78,7 +78,7 @@ define('WP_ALLOW_MULTISITE', true);
 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'pointlave.com');
+define('DOMAIN_CURRENT_SITE', 'www.pointlave.com.br');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
@@ -123,8 +123,8 @@ define( 'SMTP_DEBUG',   0 );                    // for debugging purposes only s
 
 //define( 'COOKIE_DOMAIN', 'www.fastlave.com.br' );
 
-define( 'WP_HOME', 'https://pointlave.com' );
-define( 'WP_SITEURL', 'https://pointlave.com' );
+define( 'WP_HOME', 'https://www.pointlave.com.br' );
+define( 'WP_SITEURL', 'https://www.pointlave.com.br' );
 define('FORCE_SSL_ADMIN', true);
 define('FORCE_SSL_LOGIN', true);
 
