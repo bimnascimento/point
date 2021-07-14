@@ -125,7 +125,7 @@ function process_post() {
         //dump($_SERVER["HTTP_HOST"],true);
 
         //if($_SERVER["HTTPS"] != "on" && $_SERVER["HTTP_HOST"]=="www.pointlave.com.br"){
-        if ( isset( $_SERVER["HTTPS"] ) && strtolower( $_SERVER["HTTPS"] ) != "on" && $_SERVER["HTTP_HOST"] == "pointlave.com" ){
+        if ( isset( $_SERVER["HTTPS"] ) && strtolower( $_SERVER["HTTPS"] ) != "on" && $_SERVER["HTTP_HOST"] == "www.pointlave.com.br" ){
             header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
             exit();
         }
