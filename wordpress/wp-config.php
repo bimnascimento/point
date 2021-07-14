@@ -57,8 +57,8 @@ define('DB_CHARSET', 'utf8');
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
 
-define( 'WP_HOME', 'http://pointlave.com' );
-define( 'WP_SITEURL', 'http://pointlave.com' );
+// define( 'WP_HOME', 'http://pointlave.com' );
+// define( 'WP_SITEURL', 'http://pointlave.com' );
 
 /**#@+
  * Chaves únicas de autenticação e salts.
