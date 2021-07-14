@@ -125,7 +125,7 @@ function process_post() {
         //dump($_SERVER["HTTP_HOST"],true);
 
         //if($_SERVER["HTTPS"] != "on" && $_SERVER["HTTP_HOST"]=="www.pointlave.com.br"){
-        if ( isset( $_SERVER["HTTPS"] ) && strtolower( $_SERVER["HTTPS"] ) != "on" && $_SERVER["HTTP_HOST"] == "www.pointlave.com.br" ){
+        if ( isset( $_SERVER["HTTPS"] ) && strtolower( $_SERVER["HTTPS"] ) != "on" && $_SERVER["HTTP_HOST"] == "pointlave.com" ){
             header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
             exit();
         }
@@ -183,7 +183,7 @@ function process_post() {
       //dump($absolute_url);
       //delete_site_transient( 'site-id' );
 
-      if( $current_site_id == 1 && !empty($site_id) && ( $absolute_url=='http://192.168.1.25/pointlave/' || $absolute_url=='http://www.pointlave.com.br/' || $absolute_url=='https://www.pointlave.com.br/' ) ){
+      if( $current_site_id == 1 && !empty($site_id) && ( $absolute_url=='http://192.168.1.25/pointlave/' || $absolute_url=='http://www.pointlave.com.br/' || $absolute_url=='https://www.pointlave.com.br/' || $absolute_url=='https://www.pointlave.com/' || $absolute_url=='https://pointlave.com/' ) ){
           $url = get_site_url($site_id);
           //dump($url,true);
           wp_redirect( $url );
